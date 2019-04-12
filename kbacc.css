@@ -1,4 +1,4 @@
-/* .transition, p, ul li i:before, ul li i:after {
+.transition, p, ul li i:before, ul li i:after {
   transition: all 0.25s ease-in-out;
 }
 
@@ -15,11 +15,11 @@
   -ms-user-select: none;
   user-select: none;
 }
-html {
+div {
   height: 100%;
   width: 100%;
   perspective: 900;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   background-color: #ffffff;
   font-family: "Titillium Web", sans-serif;
   color: rgba(48, 69, 92, 0.8);
