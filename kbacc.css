@@ -15,11 +15,8 @@
   -ms-user-select: none;
   user-select: none;
 }
-div {
-  height: 100%;
-  width: 100%;
-  perspective: 900;
-  /* overflow-y: scroll; */
+div #top{
+  overflow-y: scroll;
   background-color: #ffffff;
   font-family: "Titillium Web", sans-serif;
   color: rgba(48, 69, 92, 0.8);
@@ -42,10 +39,10 @@ body {
 
   margin: 10px 0;
 
-  box-shadow: 0 10px 0 0 #a32020 inset;
+  box-shadow: 1 10px 2 1 #a32020 inset;
   background-color: #fefffa;
   padding: 30px;
-}
+} 
 
 h1, h2 {
   color: #000000;
